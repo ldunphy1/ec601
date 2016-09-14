@@ -44,7 +44,7 @@ int main()
 void drawText(Mat & image)
 {
     putText(image, "Curry & Lindsey's 1st Homework",
-            Point(50,50),
+            Point(50,50), // fontsize 
             FONT_HERSHEY_COMPLEX, 1, // font face and scale
             Scalar(0, 0,255), // red   
             
