@@ -9,6 +9,7 @@ using namespace std;
 
 void drawText(Mat & image);
 
+//Video Capture
 int main()
 {
     cout << "Built with OpenCV " << CV_VERSION << endl;
